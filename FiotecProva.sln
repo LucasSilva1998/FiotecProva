@@ -24,6 +24,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiotecProva.Infra.Data.ExternalServices", "FiotecProva.Infra.Data.ExternalServices\FiotecProva.Infra.Data.ExternalServices.csproj", "{F71A29D2-EE3F-4143-8D90-D4532D8DE64C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiotecProva.Infra.Data.Tests", "FiotecProva.Infra.Data.Tests\FiotecProva.Infra.Data.Tests.csproj", "{B8D44907-F378-45C7-957E-7090F23DC957}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +50,14 @@ Global
 		{D600C2C9-D2FA-45AA-A17D-434B046C62D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D600C2C9-D2FA-45AA-A17D-434B046C62D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D600C2C9-D2FA-45AA-A17D-434B046C62D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71A29D2-EE3F-4143-8D90-D4532D8DE64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71A29D2-EE3F-4143-8D90-D4532D8DE64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71A29D2-EE3F-4143-8D90-D4532D8DE64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71A29D2-EE3F-4143-8D90-D4532D8DE64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D44907-F378-45C7-957E-7090F23DC957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D44907-F378-45C7-957E-7090F23DC957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D44907-F378-45C7-957E-7090F23DC957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D44907-F378-45C7-957E-7090F23DC957}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +67,8 @@ Global
 		{0F8B4004-8E89-41FE-9CC6-A986146E3AC6} = {15E70912-5F72-4DE9-9EDD-17D711C5C734}
 		{14F43AD7-5E58-4923-8A9D-0CEAEDAF804C} = {AA6AFED9-F69A-4664-B0E3-8641C8FB0EDB}
 		{D600C2C9-D2FA-45AA-A17D-434B046C62D5} = {F1CDED90-3E2F-4987-8666-0592B2C45F68}
+		{F71A29D2-EE3F-4143-8D90-D4532D8DE64C} = {F1CDED90-3E2F-4987-8666-0592B2C45F68}
+		{B8D44907-F378-45C7-957E-7090F23DC957} = {F1CDED90-3E2F-4987-8666-0592B2C45F68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D63C2F7-5CE8-455B-8ED2-CFEDD5334621}

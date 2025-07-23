@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FiotecProva.Domain\FiotecProva.Domain.csproj" />
+    <ProjectReference Include="..\FiotecProva.Infra.Data.ExternalServices\FiotecProva.Infra.Data.ExternalServices.csproj" />
     <ProjectReference Include="..\FiotecProva.Infra.Data\FiotecProva.Infra.Data.csproj" />
   </ItemGroup>
 
