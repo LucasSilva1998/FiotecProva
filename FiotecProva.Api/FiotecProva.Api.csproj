@@ -19,4 +19,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FiotecProva.Domain\FiotecProva.Domain.csproj" />
+    <ProjectReference Include="..\FiotecProva.Infra.Data\FiotecProva.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
