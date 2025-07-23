@@ -5,6 +5,20 @@ VisualStudioVersion = 17.14.36310.24 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiotecProva.Api", "FiotecProva.Api\FiotecProva.Api.csproj", "{42D21694-CAE6-48B9-BD6F-98BA3BF49FC0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{15E70912-5F72-4DE9-9EDD-17D711C5C734}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{AA6AFED9-F69A-4664-B0E3-8641C8FB0EDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{F1CDED90-3E2F-4987-8666-0592B2C45F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiotecProva.Application", "FiotecProva.Application\FiotecProva.Application.csproj", "{0F8B4004-8E89-41FE-9CC6-A986146E3AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiotecProva.Domain", "FiotecProva.Domain\FiotecProva.Domain.csproj", "{14F43AD7-5E58-4923-8A9D-0CEAEDAF804C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiotecProva.Infra.Data", "FiotecProva.Infra.Data\FiotecProva.Infra.Data.csproj", "{D600C2C9-D2FA-45AA-A17D-434B046C62D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +29,27 @@ Global
 		{42D21694-CAE6-48B9-BD6F-98BA3BF49FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42D21694-CAE6-48B9-BD6F-98BA3BF49FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42D21694-CAE6-48B9-BD6F-98BA3BF49FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8B4004-8E89-41FE-9CC6-A986146E3AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8B4004-8E89-41FE-9CC6-A986146E3AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8B4004-8E89-41FE-9CC6-A986146E3AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8B4004-8E89-41FE-9CC6-A986146E3AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F43AD7-5E58-4923-8A9D-0CEAEDAF804C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F43AD7-5E58-4923-8A9D-0CEAEDAF804C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F43AD7-5E58-4923-8A9D-0CEAEDAF804C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F43AD7-5E58-4923-8A9D-0CEAEDAF804C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D600C2C9-D2FA-45AA-A17D-434B046C62D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D600C2C9-D2FA-45AA-A17D-434B046C62D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D600C2C9-D2FA-45AA-A17D-434B046C62D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D600C2C9-D2FA-45AA-A17D-434B046C62D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42D21694-CAE6-48B9-BD6F-98BA3BF49FC0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0F8B4004-8E89-41FE-9CC6-A986146E3AC6} = {15E70912-5F72-4DE9-9EDD-17D711C5C734}
+		{14F43AD7-5E58-4923-8A9D-0CEAEDAF804C} = {AA6AFED9-F69A-4664-B0E3-8641C8FB0EDB}
+		{D600C2C9-D2FA-45AA-A17D-434B046C62D5} = {F1CDED90-3E2F-4987-8666-0592B2C45F68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7D63C2F7-5CE8-455B-8ED2-CFEDD5334621}
