@@ -27,23 +27,21 @@ API RESTful desenvolvida em .NET 9 com arquitetura em camadas, responsável pelo
 ### 1. Subir o ambiente com Docker Compose
 
 O projeto já inclui um arquivo `docker-compose.yml` para subir o SQL Server automaticamente:
-
-```bash
 docker-compose up -d
 
-
-### 2. Restaurar pacotes e aplicar migrations
+### 2. Restaurar pacotes e aplicar Migration
 
 dotnet restore
 dotnet ef database update --project FiotecProva.Infra.Data --startup-project FiotecProva.API
 
-### 3. Execute a API:
+### 3. Executar API
 
 cd FiotecProva.API
 dotnet run
 
 
 ---
+
 
 ### Importante
 
