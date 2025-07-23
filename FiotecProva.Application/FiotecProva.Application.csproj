@@ -6,4 +6,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FiotecProva.Domain\FiotecProva.Domain.csproj" />
+    <ProjectReference Include="..\FiotecProva.Infra.Data.ExternalServices\FiotecProva.Infra.Data.ExternalServices.csproj" />
+    <ProjectReference Include="..\FiotecProva.Infra.Data\FiotecProva.Infra.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
